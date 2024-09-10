@@ -1,6 +1,5 @@
 # Ignite
 
-New App
 - Create New Project / iOS / App
 - Organization: Aepryus Software
 - Ignite Group changed to Source
