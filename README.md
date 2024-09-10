@@ -12,7 +12,7 @@ New App
 - Resources: Assets, LaunchScreen, Info
 - Global: add Ignite file:
 
-  ```
+  ```swift
     class Ignite {
         static let window: UIWindow = UIWindow()
   
@@ -26,7 +26,7 @@ New App
 
 change AppDelegate to:
 
-```
+```swift
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     // UIApplicationDelegate ===========================================================================
@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 - add Acheron package
 - change ViewController to:
 
-```
+```swift
 class ViewController: UIViewController {
     // UIViewController ================================================================================
     override func viewDidLoad() {
