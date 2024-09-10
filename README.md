@@ -12,17 +12,17 @@ New App
 - Resources: Assets, LaunchScreen, Info
 - Global: add Ignite file:
 
-  ```swift
-    class Ignite {
-        static let window: UIWindow = UIWindow()
+```swift
+class Ignite {
+    static let window: UIWindow = UIWindow()
   
-        static func start() {
-            print("[ Ignite ] ================================================================")
-            window.rootViewController = ViewController()
-            window.makeKeyAndVisible()
-        }
+    static func start() {
+        print("[ Ignite ] ================================================================")
+        window.rootViewController = ViewController()
+        window.makeKeyAndVisible()
     }
-  ```
+}
+```
 
 change AppDelegate to:
 
