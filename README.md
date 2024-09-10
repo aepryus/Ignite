@@ -3,14 +3,14 @@
 New App
 - Create New Project / iOS / App
 - Organization: Aepryus Software
-- “App” Group changed to Source
+- Ignite Group changed to Source
 - add Resources group next to it
 - Delete: Main, SceneDelegate
 - in Source add Groups: Global, Interface, Domain
 - Global: AppDelegate
 - Interface: ViewController
 - Resources: Assets, LaunchScreen, Info
-- Global: add “App” file:
+- Global: add Ignite file:
 	
 class Ignite {
     static let window: UIWindow = UIWindow()
